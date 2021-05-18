@@ -1,0 +1,67 @@
+{
+    "flex-layout.row#ProductsRange": {
+        "children": [
+            "flex-layout.col#Amazon",
+            "flex-layout.col#Milwaukee",
+            "flex-layout.col#RoofPaint",
+            "flex-layout.col#Organic"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "rich-text#ProductRangeText": {
+        "props": {
+            "text": "RefCaption",
+            "blockClass": "link"
+        }
+    },
+    "flex-layout.col#Amazon": {
+        "children": [
+            "image#Amazon",
+            "rich-text#ProductRangeText"
+        ]
+    },
+    "flex-layout.col#Milwaukee": {
+        "children": [
+            "image#Milwaukee",
+            "rich-text#ProductRangeText"
+        ]
+    },
+    "flex-layout.col#Organic": {
+        "children": [
+            "image#Organic",
+            "rich-text#ProductRangeText"
+        ]
+    },
+    "flex-layout.col#RoofPaint": {
+        "children": [
+            "image#RoofPaint",
+            "rich-text#ProductRangeText"
+        ]
+    },
+    "image#Amazon": {
+        "props": {
+            "src": "assets/ProductRange/Amazon.gif",
+            "title": "Plants"
+        }
+    },
+    "image#Milwaukee": {
+        "props": {
+            "src": "assets/ProductRange/Milwaukee.jpg",
+            "title": "Milwaukee"
+        }
+    },
+    "image#Organic": {
+        "props": {
+            "src": "assets/ProductRange/Organic.gif",
+            "title": "Organic"
+        }
+    },
+    "image#RoofPaint": {
+        "props": {
+            "src": "assets/ProductRange/RoofPaint.jpg",
+            "title": "RoofPaint"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#Projects": {
+        "children": [
+            "flex-layout.col#Projects1",
+            "flex-layout.col#Projects2"
+        ]
+    },
+    "rich-text#RefCaption": {
+        "props": {
+            "text": "## RefCaption."
+        }
+    },
+    "flex-layout.col#Projects1": {
+        "children": [
+            "image#Projects1",
+            "rich-text#RefCaption"
+        ]
+    },
+    "image#Projects1": {
+        "props": {
+            "src": "assets/Projects/Projects1.jpg"
+        }
+    },
+    "flex-layout.col#Projects2": {
+        "children": [
+            "image#Projects2",
+            "rich-text#RefCaption"
+        ]
+    },
+    "image#Projects2": {
+        "props": {
+            "src": "assets/Projects/Projects2.jpg"
+        }
+    }
+}

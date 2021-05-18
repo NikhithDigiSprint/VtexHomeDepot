@@ -1,0 +1,181 @@
+.headerRow--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.headerRow--main-header .headerRowBackground {
+  background-color: #F96302;
+  padding: 1.5em 0;
+}
+/*
+.headerRow--main-header :global(a) {
+  margin: 0 auto;
+} */
+
+.headerRow--main-topbar :global(.vtex-menu-2-x-styledLink)  {
+  color: #000;
+  font-size: 14px;
+  background-color: #fff;
+}
+.submenuContainer  {
+  background-color: #000;
+ 
+}
+
+.headerRow--main-topbar .headerRowBackground {
+  background-color: #fff;
+ 
+}
+
+.headerRow--top-slave .headerRowBackground
+{
+  background-color: #fff ;
+  color: #000;
+}
+
+.headerRowContainer--main-topbar:global(.vtex-menu-2-x-submenu--submenucls)  {
+
+  color: #000;
+  font-size: 14px;
+  background-color: #fff;
+}
+.headerRowContainer--main-topbar:global(.vtex-menu-2-x-submenu--submenuclsele)  {
+
+  color: #000;
+  font-size: 14px;
+  background-color: #fff;
+}
+.headerRowContainer--main-topbar:global(.vtex-menu-2-x-submenu--submenucls) {
+
+   background-color: #fff;
+}
+.headerRowContainer--main-topbar:global(.vtex-menu-2-x-submenu--submenuclsele) {
+
+  background-color: #fff;
+}
+
+.c-on-base 
+{
+  color: #ffffff !important;
+}
+
+.headerRow--main-header-mobile .headerRowBackground {
+  background-color: #F96302;
+  padding: 1.5em 0;
+}
+
+
+:global(.vtex-menu-2-x-submenuWrapper--submenucls)
+{
+  background-color: #fff;
+  color: #000;
+  border-top: 2px solid #fff;
+    border-radius: 10px;
+    top: 5px;
+}
+
+
+:global(.vtex-menu-2-x-submenuWrapper--submenuclsele)
+{
+  background-color: #fff;
+  color: #000;
+  border-top: 2px solid #fff;
+    border-radius: 10px;
+    top: 5px;
+    width: 210px;
+}
+:global(.vtex-menu-2-x-styledLink--top-name)
+{
+    color: #333;
+    font-size: 11px;
+}
+
+:global(.vtex-menu-2-x-menuItem):hover
+{
+    color: #bbb;
+    font-size: 14px;
+    border-bottom: 3px solid #F96302;
+}
+
+:global(.vtex-input__suffix)
+{
+  border: 2px solid;
+  background: #F96302;
+  padding: 7px;
+}
+:global(.vtex-store-components-3-x-searchBarIcon--search)
+{
+  color: #fff;
+}
+:global(.vtex-slider-layout-0-x-sliderLeftArrow)
+{
+  border: 1px solid;
+  background: #F96302!important;
+  color: #fff;
+  height: 50px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderRightArrow)
+{
+  border: 1px solid;
+  background: #F96302!important;
+  color: #fff;
+  height: 50px;
+}
+
+
+
+:global(.vtex-store-header-2-x-headerRowContainer--top-slave)
+{
+  
+  display: flex !important;
+  width: 43%;
+  text-align: right;
+  position: relative;
+  left: 56%;
+  height: 40px;
+  padding: 1.0em;
+}
+
+
+:global(.vtex-menu-2-x-menuItem--submenulist):hover
+{
+  border-bottom: none!important;
+}
+:global(.vtex-menu-2-x-styledLinkContent--submenulist):hover
+{
+  
+ color: #000;
+ font-weight: bold;
+}
+:global(.vtex-flex-layout-0-x-flexRow--ellazplist)
+{
+min-width: 600px; 
+}
+:global(.vtex-rich-text-0-x-paragraph--headpart2)
+{
+  line-height: .5;
+}
+
+
+:global(.vtex-rich-text-0-x-div--headpart1)
+{
+  font-size: 14px;
+  line-height: .5;
+}
+.container--newsletter{
+  max-height: 350px;
+}
+:global(.vtex-rich-text-0-x-arrow--headpart1),
+:global(.vtex-rich-text-0-x-arrow--headpart2) {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+:global(.vtex-rich-text-0-x-down--headpart1),
+:global(.vtex-rich-text-0-x-down--headpart2) {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+

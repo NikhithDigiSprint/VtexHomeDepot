@@ -1,0 +1,207 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#2-desktop",
+      "header-row#4-desktop",
+      "header-row#5-desktop"
+    ]
+  },
+  "header-row#2-desktop": {
+    "children": [
+      "header-border",
+      "vtex.menu@2.x:menu#websites"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "top-slave"
+    }
+  },
+  "notification.bar#home11": {
+    "props": {
+      "content": "SELECTED ITEMS <br/> ON SALE! CHECK IT OUT!!!!11"
+    }
+  },
+  "header-row#4-desktop": {
+    "children": [
+      "logo#desktop",
+      "flex-layout.row#2nd-row",
+      "search-bar",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": false,
+      "blockClass": "container",
+      "fullWidth": false
+    }
+  },
+  "login": {
+    "props": {
+      "iconLabel": "Inicia sesión",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "blockClass": "search",
+      "placeholder": "¿Qué estás buscando hoy?"
+    }
+  },
+  "header-row#5-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props": {
+      "blockClass": "main-topbar"
+    }
+  },
+  "flex-layout.row#2nd-row": {
+    "children": [
+      "overlay-trigger"
+    ],
+    "props": {
+      "blockClass": "2ndRow"
+    }
+  },
+  "flex-layout.col#3rd-col-1": {
+    "children": [
+      "rich-text#part1"
+    ],
+    "props": {
+      "width": "74%"
+    }
+  },
+  "overlay-trigger": {
+    "children": [
+      "rich-text#part2",
+      "overlay-layout"
+    ],
+    "props": {
+      "width": "45%"
+    }
+  },
+  "rich-text#part1": {
+    "props": {
+      "text": "You re shopping  <div class='vtex-rich-text-0-x-div--headpart1'><div class='MyStore__store'>Guam - Tamuning </div><span class='vtex-rich-text-0-x-arrow--headpart1  vtex-rich-text-0-x-down--headpart1'></span></div>",
+      "blockClass": "headpart1"
+    }
+  },
+  "rich-text#part2": {
+    "props": {
+      "text": "Tu tienda <p><span class='vtex-rich-text-0-x-arrow--headpart2  vtex-rich-text-0-x-down--headpart2'></p>",
+      "blockClass": "headpart2"
+    }
+  },
+  // "rich-text#question": {
+  //   "props": {
+  //     "text": "**Click to open the Overlay Layout**",
+  //     "blockClass": "question"
+  //   }
+  // },
+  "overlay-layout": {
+    "props": {
+      "placement": "bottom",
+      "showArrow": true
+    },
+    "children": [
+      "rich-text#link"
+    ]
+  },
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/HomeDepot-Logo.png",
+      "width": "68"
+    }
+  },
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Go to checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "gray"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile"
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "header-spacer",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-Departamentos",
+      "menu-item#Promociones y eventos",
+      "menu-item#Ideas y espacios",
+      "menu-item#Servicios"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/HomeDepot-Logo.png",
+      "width": "35"
+    }
+  }
+}

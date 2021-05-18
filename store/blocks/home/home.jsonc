@@ -1,0 +1,170 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#HomePageBanners",
+      "rich-text#Rediscover",
+      "flex-layout.row#Spaces",
+      "flex-layout.row#Promociones",
+      "flex-layout.row#MomGift",
+      "flex-layout.row#ProductsRange",
+      "image#HotSaleBanner",
+      "slider-layout#home",
+      "rich-text#Projects",
+      "flex-layout.row#Projects",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "slider-layout#text-test",
+      "rich-text#shelfDateDESC-title",
+      "flex-layout.row#shelfDateDESC"
+      // "rich-text#link",
+      // "newsletter"
+    ]
+  },
+  "list-context.image-list#HomePageBanners": {
+    "children": [
+      "slider-layout#HomePageBanners-images"
+    ],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "assets/HomePageBanners/1.jpg",
+          "mobileImage": "assets/HomePageBanners/M1.jpg",
+          "link": "https://mywok1--homedepot.myvtex.com/electronics"
+        },
+        {
+          "image": "assets/HomePageBanners/2.jpg",
+          "mobileImage": "assets/HomePageBanners/M2.jpg",
+          "link": "https://mywok1--homedepot.myvtex.com/electronics"
+        },
+        {
+          "image": "assets/HomePageBanners/3.jpg",
+          "mobileImage": "assets/HomePageBanners/M3.jpg",
+          "link": "https://mywok1--homedepot.myvtex.com/electronics"
+        },
+        {
+          "image": "assets/HomePageBanners/4.jpg",
+          "mobileImage": "assets/HomePageBanners/M4.jpg",
+          "link": "https://mywok1--homedepot.myvtex.com/electronics"
+        },
+        {
+          "image": "assets/HomePageBanners/5.jpg",
+          "mobileImage": "assets/HomePageBanners/M5.jpg",
+          "link": "https://mywok1--homedepot.myvtex.com/electronics"
+        }
+      ]
+    }
+  },
+  "image#HotSaleBanner": {
+    "props": {
+        "src": "assets/HotSaleBanner.jpg",
+        "title": "HotSaleBanner"
+    }
+},
+  "slider-layout#HomePageBanners-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "rich-text#Rediscover": {
+    "props": {
+      "text": "Redescubre tus espacios",
+      "blockClass": "trial"
+    }
+  },
+  "rich-text#Projects": {
+    "props": {
+      "text": "Facilitamos tus proyectos",
+      "blockClass": "trial"
+    }
+  },
+  "rich-text#shelfDateDESC-title": {
+    "props": {
+      "text": "## Our Unique Collection of Women",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "category": "1",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Our Unique Collection of Electronics",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelfDateDESC": {
+    "children": [
+      "list-context.product-list#demo2"
+    ]
+  },
+  "list-context.product-list#demo2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-productsDateDESC"
+    ],
+    "props": {
+      "category": "10",
+      "orderByField": "OrderByReleaseDateDESC"
+    }
+  },
+  "slider-layout#demo-productsDateDESC": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf"
+    }
+  }
+}

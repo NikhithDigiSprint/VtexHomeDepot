@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#MomGift": {
+        "children": [
+            "flex-layout.col#Adhesives",
+            "flex-layout.col#Plants",
+            "flex-layout.col#Furniture",
+            "flex-layout.col#crafts",
+            "flex-layout.col#HomeApps",
+            "flex-layout.col#SmartHome"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "rich-text#MomGiftText": {
+        "props": {
+            "text": "RefCaption",
+            "blockClass": "link"
+        }
+    },
+    "flex-layout.col#Adhesives": {
+        "children": [
+            "image#Adhesives",
+            "rich-text#MomGiftText"
+        ]
+    },
+    "flex-layout.col#Plants": {
+        "children": [
+            "image#Plants",
+            "rich-text#MomGiftText"
+        ]
+    },
+    "flex-layout.col#Furniture": {
+        "children": [
+            "image#Furniture",
+            "rich-text#MomGiftText"
+        ]
+    },
+    "flex-layout.col#crafts": {
+        "children": [
+            "image#crafts",
+            "rich-text#MomGiftText"
+        ]
+    },
+    "flex-layout.col#HomeApps": {
+        "children": [
+            "image#HomeApps",
+            "rich-text#MomGiftText"
+        ]
+    },
+    "flex-layout.col#SmartHome": {
+        "children": [
+            "image#SmartHome",
+            "rich-text#MomGiftText"
+        ]
+    },
+    "image#Adhesives": {
+        "props": {
+            "src": "assets/MomGift/Adhesives.jpg",
+            "title": "Plants"
+        }
+    },
+    "image#Plants": {
+        "props": {
+            "src": "assets/MomGift/Plants.jpg",
+            "title": "Plants"
+        }
+    },
+    "image#Furniture": {
+        "props": {
+            "src": "assets/MomGift/Furniture.jpg",
+            "title": "Furniture"
+        }
+    },
+    "image#crafts": {
+        "props": {
+            "src": "assets/MomGift/crafts.jpg",
+            "title": "crafts"
+        }
+    },
+    "image#HomeApps": {
+        "props": {
+            "src": "assets/MomGift/HomeApps.jpg",
+            "title": "HomeApps"
+        }
+    },
+    "image#SmartHome": {
+        "props": {
+            "src": "assets/MomGift/SmartHome.jpg",
+            "title": "SmartHome"
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.container--xp {
+  width: 80%;
+}
+.MyStoreWrapper
+{
+  font-size: 14px;
+  line-height: .5;
+}
+.container--newsletter{
+  max-height: 350px;
+}
+:global(.vtex-rich-text-0-x-container)
+{
+  padding-top: 5px;
+  font-size: 10px;
+} 
+:global(.vtex-rich-text-0-x-wrapper--headpart2)
+{
+  font-size: 14px;
+    line-height: .5;
+}
+
+
+
+
+.arrow  {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+:global(.vtex-rich-text-0-x-wrapper--headpart1)  
+{
+  border-right: 2px #2c60ac solid;
+  font-size: 14px;
+  line-height: .5;
+  padding-right: 15px;
+}
+:global(.vtex-rich-text-0-x-paragraph--headpart1)
+{
+  font-size: 14px;
+  line-height: .5;
+}
+:global(.vtex-flex-layout-0-x-flexRow--2ndRow)
+{
+  width: 16%;
+}
+
+.paragraph--trial {
+  font-size: 32px;
+  font-family: 'Open Sans Light' !important;
+  font-weight: 300;
+}

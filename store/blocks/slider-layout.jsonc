@@ -1,0 +1,146 @@
+{
+  "slider-layout#home": {
+    "children": [
+      "image#Redescubre",
+      "image#PISOS",
+      "image#BANOS",
+      "image#CA",
+      "image#LIMPIEZA",
+      "image#PINTURAS",
+      "image#7",
+      "image#8",
+      "image#9",
+      "image#10",
+      "image#11",
+      "image#12",
+      "image#13",
+      "image#14",
+      "image#15",
+      "image#16",
+      "image#17",
+      "image#18",
+      "image#19",
+      "image#20",
+      "image#21"
+    ],
+    "props": {
+      "navigationStep" : 1,
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 5,
+        "phone": 3
+      },
+      "showPaginationDots": "never"
+    }
+  },
+  "image#Redescubre": {
+    "props": {
+      "src": "assets/Services-Slider/1_Redescubre_Mom.jpg",
+      "title" : "Redescubre"
+    }
+  },
+  "image#PISOS": {
+    "props": {
+      "src": "assets/Services-Slider/2_PISOS.jpg",
+      "title" : "PISOS"
+    }
+  },
+  "image#BANOS": {
+    "props": {
+      "src": "assets/Services-Slider/3_BANOS.jpg",
+      "title": "BANOS"
+    }
+  },
+  "image#CA": {
+    "props": {
+      "src": "assets/Services-Slider/4_CALENTADORES_AGUA.jpg",
+      "title": "CALENTADORES AGUA"
+    }
+  },
+  "image#LIMPIEZA": {
+    "props": {
+      "src": "assets/Services-Slider/5_LIMPIEZA.jpg",
+      "title" : "LIMPIEZA"
+    }
+  },
+  "image#PINTURAS": {
+    "props": {
+      "src": "assets/Services-Slider/6_PINTURAS.jpg"
+    }
+  },
+  "image#7": {
+    "props": {
+      "src": "assets/Services-Slider/7_LB.jpg"
+    }
+  },
+  "image#8": {
+    "props": {
+      "src": "assets/Services-Slider/8_HERRAMIENTAS.jpg"
+    }
+  },
+  "image#9": {
+    "props": {
+      "src": "assets/Services-Slider/9_CASA_INTELIGENTE.jpg"
+    }
+  },
+  "image#10": {
+    "props": {
+      "src": "assets/Services-Slider/10_CERRADURAS.jpg"
+    }
+  },
+  "image#11": {
+    "props": {
+      "src": "assets/Services-Slider/11_SEGURIDAD.jpg"
+    }
+  },
+  "image#12": {
+    "props": {
+      "src": "assets/Services-Slider/12_ORGANIZACION.jpg"
+    }
+  },
+  "image#13": {
+    "props": {
+      "src": "assets/Services-Slider/13_PUERTAS.jpg"
+    }
+  },
+  "image#14": {
+    "props": {
+      "src": "assets/Services-Slider/14_ILUMINACION.jpg"
+    }
+  },
+  "image#15": {
+    "props": {
+      "src": "assets/Services-Slider/15_MAT_CONST.jpg"
+    }
+  },
+  "image#16": {
+    "props": {
+      "src": "assets/Services-Slider/16_DECORACION.jpg"
+    }
+  },
+  "image#17": {
+    "props": {
+      "src": "assets/Services-Slider/17_FERRETERIA.jpg"
+    }
+  },
+  "image#18": {
+    "props": {
+      "src": "assets/Services-Slider/18_ELECTRICO.jpg"
+    }
+  },
+  "image#19": {
+    "props": {
+      "src": "assets/Services-Slider/19_VENTILACION.jpg"
+    }
+  },
+  "image#20": {
+    "props": {
+      "src": "assets/Services-Slider/20_JARDIN.jpg"
+    }
+  },
+  "image#21": {
+    "props": {
+      "src": "assets/Services-Slider/21_PLOMERIA.jpg"
+    }
+  }
+}

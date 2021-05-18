@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#Spaces": {
+        "children": [
+            "flex-layout.col#Spaces1",
+            "flex-layout.col#Spaces2",
+            "flex-layout.col#Spaces3"
+        ]
+    },
+    "rich-text#RefCaption": {
+        "props": {
+            "text": "## RefCaption."
+        }
+    },
+    "flex-layout.col#Spaces1": {
+        "children": [
+            "image#Spaces1",
+            "rich-text#RefCaption"
+        ]
+    },
+    "image#Spaces1": {
+        "props": {
+            "src": "assets/Spaces/Spaces1.jpg"
+        }
+    },
+    "flex-layout.col#Spaces2": {
+        "children": [
+            "image#Spaces2",
+            "rich-text#RefCaption"
+        ]
+    },
+    "image#Spaces2": {
+        "props": {
+            "src": "assets/Spaces/Spaces2.jpg"
+        }
+    },
+    "flex-layout.col#Spaces3": {
+        "children": [
+            "image#Spaces3",
+            "rich-text#RefCaption"
+        ]
+    },
+    "image#Spaces3": {
+        "props": {
+            "src": "assets/Spaces/Spaces3.jpg"
+        }
+    }
+}

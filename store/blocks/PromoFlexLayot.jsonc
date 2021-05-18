@@ -1,0 +1,72 @@
+{
+    "flex-layout.row#Promociones": {
+        "children": [
+            "flex-layout.col#LeftCol",
+            "flex-layout.col#PromCol1",
+            "flex-layout.col#PromCol2"
+        ]
+    },
+    "flex-layout.col#LeftCol": {
+        "children": [
+            "image#SamRefrigerator",
+            "rich-text#RefCaption"
+        ]
+    },
+    "rich-text#RefCaption": {
+        "props": {
+            "text": "## RefCaption."
+        }
+    },
+    "image#SamRefrigerator": {
+        "props": {
+            "src": "assets/Promociones/SamREFRI.jpg",
+            "title": "Redescubre"
+        }
+    },
+    "flex-layout.col#PromCol1": {
+        "children": [
+            "image#Stove",
+            "rich-text#RefCaption",
+            "image#Laundry",
+            "rich-text#RefCaption"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#PromCol2": {
+        "children": [
+            "image#FitKitchens",
+            "rich-text#RefCaption",
+            "image#WashMachines",
+            "rich-text#RefCaption"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "image#Stove": {
+        "props": {
+            "src": "assets/Promociones/Stove.jpg",
+            "title": "Stove"
+        }
+    },
+    "image#Laundry": {
+        "props": {
+            "src": "assets/Promociones/Laundry.jpg",
+            "title": "Laundry"
+        }
+    },
+    "image#FitKitchens": {
+        "props": {
+            "src": "assets/Promociones/FitKitchens.jpg",
+            "title": "FitKitchens"
+        }
+    },
+    "image#WashMachines": {
+        "props": {
+            "src": "assets/Promociones/WashMachines.jpg",
+            "title": "WashMachines"
+        }
+    }
+}

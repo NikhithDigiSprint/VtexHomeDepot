@@ -1,0 +1,431 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-Departamentos",
+      "menu-item#Promociones y eventos",
+      "menu-item#Ideas y espacios",
+      "menu-item#Servicios"
+    ]
+  },
+  "menu-item#category-Departamentos": {
+    "props": {
+      "id": "menu-item-category-Departamentos",
+      "type": "custom",
+      "iconId": "caret",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics",
+        "noFollow": false,
+        "tagTitle": "Departamentos",
+        "text": "Departamentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-Departamentos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-Departamentos": {
+    "props": {
+      "width": "auto",
+      "blockClass": "submenuclsele",
+      "background-color":"#F96302"
+    },
+    "children": [
+      
+      "vtex.menu@2.x:menu#category-Departamentos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-Departamentos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-Departamentos-Baños",
+      "menu-item#category-Departamentos-Decoración",
+      "menu-item#category-Departamentos-Eléctrico",
+      "menu-item#category-Departamentos-Ferretería",
+      "menu-item#category-Departamentos-Herramientas",
+      "menu-item#category-Departamentos-Iluminación",
+      "menu-item#category-Departamentos-Jardín",
+      "menu-item#category-Departamentos-Limpieza",
+      "menu-item#category-Departamentos-Materiales de Construcción",
+      "menu-item#category-Departamentos-Pinturas",
+      "menu-item#category-Departamentos-Pisos",
+      "menu-item#category-Departamentos-Plomería",
+      "menu-item#category-Departamentos-Seguridad",
+      "menu-item#category-Departamentos-Puertas y Ventanas",
+      "menu-item#category-Departamentos-Línea blanca y Cocinas",
+      "menu-item#category-Departamentos-Ventilación y Calefacción"
+    ]
+  },
+  "menu-item#category-Departamentos-Baños": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Baños",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/computers",
+        "noFollow": false,
+        "tagTitle": "Computers",
+        "text": "Baños",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Decoración": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Decoración",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Decoración",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Eléctrico": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Eléctrico",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Eléctrico",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Ferretería": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Ferretería",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Ferretería",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Herramientas": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Herramientas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Herramientas",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Iluminación": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Iluminación",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Iluminación",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Jardín": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Jardín",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Jardín",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Limpieza": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Limpieza",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Limpieza",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Materiales de Construcción": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Materiales de Construcción",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Materiales de Construcción",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Pinturas": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Pinturas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Pinturas",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Pisos": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Pisos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Pisos",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Plomería": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Plomería",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Plomería",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Seguridad": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Seguridad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Seguridad",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Puertas y Ventanas": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Puertas y Ventanas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Puertas y Ventanas",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Línea blanca y Cocinas": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Línea blanca y Cocinas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Línea blanca y Cocinas",
+        "highlight": true
+      }
+    }
+  },
+  "menu-item#category-Departamentos-Ventilación y Calefacción": {
+    "props": {
+      "id": "menu-item-category-Departamentos-Ventilación y Calefacción",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass":"submenulist",
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronics/mobiles",
+        "noFollow": false,
+        "tagTitle": "Mobiles",
+        "text": "Ventilación y Calefacción",
+        "highlight": true
+      }
+    }
+  },
+  
+  "menu-item#Promociones y eventos": {
+    "props": {
+      "id": "menu-item-Promociones y eventos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+     
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Promociones y eventos",
+        "text": "Promociones y eventos"
+      }
+    }
+  },
+  "menu-item#Ideas y espacios": {
+    "props": {
+      "id": "menu-item-Ideas y espacios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+     
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Ideas y espacios",
+        "text": "Ideas y espacios"
+      }
+    }
+  },
+  "menu-item#Servicios": {
+    "props": {
+      "id": "menu-item-Servicios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+     
+      "itemProps": {
+        "type": "internal",
+        "href": "/ella",
+        "noFollow": false,
+        "tagTitle": "Servicios",
+        "text": "Servicios"
+      }
+    }
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}
