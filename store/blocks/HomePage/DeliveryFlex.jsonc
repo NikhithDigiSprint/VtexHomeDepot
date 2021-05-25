@@ -1,0 +1,66 @@
+{
+    "flex-layout.row#Delivery": {
+        "children": [
+            "flex-layout.col#entrega",
+            "flex-layout.col#calculadora",
+            "flex-layout.col#catalogo",
+            "flex-layout.col#chat",
+            "flex-layout.col#hazlo"
+        ]
+    },
+    "flex-layout.col#entrega": {
+        "children": [
+            "image#entrega"
+        ]
+    },
+    "image#entrega": {
+        "props": {
+            "src": "assets/Delivery/entrega.jpg",
+            "blockClass": "DeliveryImgWidth"
+        }
+    },
+    "flex-layout.col#calculadora": {
+        "children": [
+            "image#calculadora"
+        ]
+    },
+    "image#calculadora": {
+        "props": {
+            "src": "assets/Delivery/calculadora.jpg",
+            "blockClass": "DeliveryImgWidth"
+        }
+    },
+    "flex-layout.col#catalogo": {
+        "children": [
+            "image#catalogo"
+        ]
+    },
+    "image#catalogo": {
+        "props": {
+            "src": "assets/Delivery/catalogo.jpg",
+            "blockClass": "DeliveryImgWidth"
+        }
+    },
+    "flex-layout.col#chat": {
+        "children": [
+            "image#chat"
+        ]
+    },
+    "image#chat": {
+        "props": {
+            "src": "assets/Delivery/chat.jpg",
+            "blockClass": "DeliveryImgWidth"
+        }
+    },
+    "flex-layout.col#hazlo": {
+        "children": [
+            "image#hazlo"
+        ]
+    },
+    "image#hazlo": {
+        "props": {
+            "src": "assets/Delivery/hazlo.jpg",
+            "blockClass": "DeliveryImgWidth"
+        }
+    }
+}

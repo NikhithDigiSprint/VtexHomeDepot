@@ -4,18 +4,25 @@
             "flex-layout.col#Spaces1",
             "flex-layout.col#Spaces2",
             "flex-layout.col#Spaces3"
-        ]
-    },
-    "rich-text#RefCaption": {
+        ],
         "props": {
-            "text": "## RefCaption."
+          "blockClass": "rowtrial"
+        }
+    },
+    "rich-text#CapTion": {
+        "props": {
+            "text": "##### **RENUEVA TU BAÑO**",
+            "blockClass": "H5600Helve"
         }
     },
     "flex-layout.col#Spaces1": {
         "children": [
             "image#Spaces1",
-            "rich-text#RefCaption"
-        ]
+            "rich-text#CapTion"
+        ],
+        "props": {
+          "blockClass": "coltrial"
+        }
     },
     "image#Spaces1": {
         "props": {
@@ -25,7 +32,7 @@
     "flex-layout.col#Spaces2": {
         "children": [
             "image#Spaces2",
-            "rich-text#RefCaption"
+            "rich-text#CapTion"
         ]
     },
     "image#Spaces2": {
@@ -36,7 +43,7 @@
     "flex-layout.col#Spaces3": {
         "children": [
             "image#Spaces3",
-            "rich-text#RefCaption"
+            "rich-text#CapTion"
         ]
     },
     "image#Spaces3": {

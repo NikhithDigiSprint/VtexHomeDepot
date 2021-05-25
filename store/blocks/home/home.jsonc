@@ -2,15 +2,9 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#HomePageBanners",
-      "rich-text#Rediscover",
-      "flex-layout.row#Spaces",
-      "flex-layout.row#Promociones",
-      "flex-layout.row#MomGift",
-      "flex-layout.row#ProductsRange",
+      "flex-layout.row#HomePageMain",
       "image#HotSaleBanner",
       "slider-layout#home",
-      "rich-text#Projects",
-      "flex-layout.row#Projects",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "slider-layout#text-test",
@@ -55,12 +49,32 @@
       ]
     }
   },
+  "flex-layout.row#HomePageMain": {
+    "children": [
+      "flex-layout.col#HomePageMain"
+    ]
+  },
+  "flex-layout.col#HomePageMain": {
+    "children": [
+      "rich-text#Rediscover",
+      "flex-layout.row#Spaces",
+      "flex-layout.row#Promociones",
+      "flex-layout.row#MomGift",
+      "flex-layout.row#ProductsRange",
+      "rich-text#Projects",
+      "flex-layout.row#Projects",
+      "flex-layout.row#Delivery"
+    ],
+    "props": {
+      "blockClass": "HomePageCol"
+    }
+  },
   "image#HotSaleBanner": {
     "props": {
-        "src": "assets/HotSaleBanner.jpg",
-        "title": "HotSaleBanner"
+      "src": "assets/HotSaleBanner.jpg",
+      "title": "HotSaleBanner"
     }
-},
+  },
   "slider-layout#HomePageBanners-images": {
     "props": {
       "itemsPerPage": {

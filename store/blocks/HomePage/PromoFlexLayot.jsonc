@@ -8,13 +8,21 @@
     },
     "flex-layout.col#LeftCol": {
         "children": [
-            "image#SamRefrigerator",
+            "stack-layout#4x3",
             "rich-text#RefCaption"
         ]
     },
-    "rich-text#RefCaption": {
+    "stack-layout#4x3": {
+        "children": [
+            "image#SamRefrigerator",
+            "image#4x3"
+        ]
+    },
+    "image#4x3": {
         "props": {
-            "text": "## RefCaption."
+            "src": "assets/Promociones/4x3.svg",
+            "title": "Redescubre",
+            "blockClass": "DiscountTag"
         }
     },
     "image#SamRefrigerator": {

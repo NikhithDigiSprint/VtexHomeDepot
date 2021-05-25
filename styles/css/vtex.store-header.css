@@ -110,17 +110,19 @@
 :global(.vtex-slider-layout-0-x-sliderLeftArrow)
 {
   border: 1px solid;
-  background: #F96302!important;
-  color: #fff;
-  height: 50px;
+  background: #fff !important;
+  color: #F96302;
+  height: 85px;
+  border: 1px solid #d3d3d3;
 }
 
 :global(.vtex-slider-layout-0-x-sliderRightArrow)
 {
   border: 1px solid;
-  background: #F96302!important;
-  color: #fff;
-  height: 50px;
+  background: #fff !important;
+  color: #F96302;
+  height: 85px;
+  border: 1px solid #d3d3d3;
 }
 
 
