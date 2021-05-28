@@ -155,6 +155,10 @@
   width: 80%;
 }
 
+.imageElement--ProjectsImgWidth{
+  width: 96%;
+}
+
 @media only screen and (min-width: 1026px) {
   .imageElement--DiscountTag {
     width: 60px;
@@ -163,6 +167,9 @@
 
 @media only screen and (max-width: 1025px) {
   .imageElement--DeliveryImgWidth{
+    width: 100%;
+  }
+  .imageElement--ProjectsImgWidth{
     width: 100%;
   }
 }

@@ -59,11 +59,47 @@
 
 .headingLevel5--H5600Helve {
   font-weight: 600;
-  font-family: 'Helvetica Neue Bold';
   font-size: 25.008px;
   line-height: 25.008px;
   letter-spacing: -0.7px;
   text-transform: uppercase;
   color: #333333;
   margin-top: 0;
+}
+
+.headingLevel2--H2Caption {
+  letter-spacing: -0.7px;
+  color: #333333;
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.strong--DeliverFlexClass {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 0;
+  letter-spacing: -0.7px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.container--DeliverFlexClass {
+  width: 80%;
+  justify-content: center;
+}
+
+.headingLevel2--CircularImageText{
+  letter-spacing: -0.7px;
+  color: #333333;
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.container--CircularImageText{
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1025px) {
+  .container--DeliverFlexClass{
+    width: 100%;
+  }
 }

@@ -9,49 +9,44 @@
             "flex-layout.col#SmartHome"
         ],
         "props": {
-            "fullWidth": true
-        }
-    },
-    "rich-text#MomGiftText": {
-        "props": {
-            "text": "RefCaption",
-            "blockClass": "link"
+            "fullWidth": true,
+            "marginBottom": 7
         }
     },
     "flex-layout.col#Adhesives": {
         "children": [
             "image#Adhesives",
-            "rich-text#MomGiftText"
+            "rich-text#Adhesives"
         ]
     },
     "flex-layout.col#Plants": {
         "children": [
             "image#Plants",
-            "rich-text#MomGiftText"
+            "rich-text#PowerTools"
         ]
     },
     "flex-layout.col#Furniture": {
         "children": [
             "image#Furniture",
-            "rich-text#MomGiftText"
+            "rich-text#Roofs"
         ]
     },
     "flex-layout.col#crafts": {
         "children": [
             "image#crafts",
-            "rich-text#MomGiftText"
+            "rich-text#Storages"
         ]
     },
     "flex-layout.col#HomeApps": {
         "children": [
             "image#HomeApps",
-            "rich-text#MomGiftText"
+            "rich-text#DoorLocks"
         ]
     },
     "flex-layout.col#SmartHome": {
         "children": [
             "image#SmartHome",
-            "rich-text#MomGiftText"
+            "rich-text#Chairs"
         ]
     },
     "image#Adhesives": {
@@ -60,10 +55,22 @@
             "title": "Plants"
         }
     },
+    "rich-text#Adhesives": {
+        "props": {
+            "text": "## Adhesives",
+            "blockClass": "CircularImageText"
+        }
+    },
     "image#Plants": {
         "props": {
             "src": "assets/MomGift/Plants.jpg",
             "title": "Plants"
+        }
+    },
+    "rich-text#PowerTools": {
+        "props": {
+            "text": "## Power Tools",
+            "blockClass": "CircularImageText"
         }
     },
     "image#Furniture": {
@@ -72,10 +79,22 @@
             "title": "Furniture"
         }
     },
+    "rich-text#Roofs": {
+        "props": {
+            "text": "## Roofs",
+            "blockClass": "CircularImageText"
+        }
+    },
     "image#crafts": {
         "props": {
             "src": "assets/MomGift/crafts.jpg",
             "title": "crafts"
+        }
+    },
+    "rich-text#Storages": {
+        "props": {
+            "text": "## Storages",
+            "blockClass": "CircularImageText"
         }
     },
     "image#HomeApps": {
@@ -84,10 +103,22 @@
             "title": "HomeApps"
         }
     },
+    "rich-text#DoorLocks": {
+        "props": {
+            "text": "## Door Locks",
+            "blockClass": "CircularImageText"
+        }
+    },
     "image#SmartHome": {
         "props": {
             "src": "assets/MomGift/SmartHome.jpg",
             "title": "SmartHome"
+        }
+    },
+    "rich-text#Chairs": {
+        "props": {
+            "text": "## Chairs",
+            "blockClass": "CircularImageText"
         }
     }
 }

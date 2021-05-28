@@ -4,13 +4,22 @@
             "flex-layout.col#LeftCol",
             "flex-layout.col#PromCol1",
             "flex-layout.col#PromCol2"
-        ]
+        ],
+        "props": {
+            "marginBottom": 7
+        }
     },
     "flex-layout.col#LeftCol": {
         "children": [
             "stack-layout#4x3",
-            "rich-text#RefCaption"
+            "rich-text#HomeDecor"
         ]
+    },
+    "rich-text#HomeDecor": {
+        "props": {
+            "text": "## Home Decor",
+            "blockClass": "H2Caption"
+        }
     },
     "stack-layout#4x3": {
         "children": [
@@ -34,9 +43,9 @@
     "flex-layout.col#PromCol1": {
         "children": [
             "image#Stove",
-            "rich-text#RefCaption",
+            "rich-text#fan",
             "image#Laundry",
-            "rich-text#RefCaption"
+            "rich-text#profEquip"
         ],
         "props": {
             "preventVerticalStretch": true
@@ -45,9 +54,9 @@
     "flex-layout.col#PromCol2": {
         "children": [
             "image#FitKitchens",
-            "rich-text#RefCaption",
+            "rich-text#AirCon",
             "image#WashMachines",
-            "rich-text#RefCaption"
+            "rich-text#Safety"
         ],
         "props": {
             "preventVerticalStretch": true
@@ -56,25 +65,49 @@
     "image#Stove": {
         "props": {
             "src": "assets/Promociones/Stove.jpg",
-            "title": "Stove"
+            "title": "Fan"
+        }
+    },
+    "rich-text#profEquip": {
+        "props": {
+            "text": "## HERRAMIENTA ELÉCTRICA",
+            "blockClass": "H2Caption"
+        }
+    },
+    "rich-text#fan": {
+        "props": {
+            "text": "## Smart Fan",
+            "blockClass": "H2Caption"
+        }
+    },
+    "rich-text#AirCon": {
+        "props": {
+            "text": "## AirCon Solutions",
+            "blockClass": "H2Caption"
+        }
+    },
+    "rich-text#Safety": {
+        "props": {
+            "text": "## Home Safety",
+            "blockClass": "H2Caption"
         }
     },
     "image#Laundry": {
         "props": {
             "src": "assets/Promociones/Laundry.jpg",
-            "title": "Laundry"
+            "title": "Tools"
         }
     },
     "image#FitKitchens": {
         "props": {
             "src": "assets/Promociones/FitKitchens.jpg",
-            "title": "FitKitchens"
+            "title": "AirCon"
         }
     },
     "image#WashMachines": {
         "props": {
             "src": "assets/Promociones/WashMachines.jpg",
-            "title": "WashMachines"
+            "title": "Sensors"
         }
     }
 }

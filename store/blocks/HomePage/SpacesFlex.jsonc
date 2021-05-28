@@ -9,16 +9,28 @@
           "blockClass": "rowtrial"
         }
     },
-    "rich-text#CapTion": {
+    "rich-text#bathroom": {
         "props": {
             "text": "##### **RENUEVA TU BAÑO**",
+            "blockClass": "H5600Helve"
+        }
+    },
+    "rich-text#Backyard": {
+        "props": {
+            "text": "##### **Backyard**",
+            "blockClass": "H5600Helve"
+        }
+    },
+    "rich-text#LivingRoom": {
+        "props": {
+            "text": "##### **LivingRoom**",
             "blockClass": "H5600Helve"
         }
     },
     "flex-layout.col#Spaces1": {
         "children": [
             "image#Spaces1",
-            "rich-text#CapTion"
+            "rich-text#bathroom"
         ],
         "props": {
           "blockClass": "coltrial"
@@ -32,7 +44,7 @@
     "flex-layout.col#Spaces2": {
         "children": [
             "image#Spaces2",
-            "rich-text#CapTion"
+            "rich-text#Backyard"
         ]
     },
     "image#Spaces2": {
@@ -43,7 +55,7 @@
     "flex-layout.col#Spaces3": {
         "children": [
             "image#Spaces3",
-            "rich-text#CapTion"
+            "rich-text#LivingRoom"
         ]
     },
     "image#Spaces3": {

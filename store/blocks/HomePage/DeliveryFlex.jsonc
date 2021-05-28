@@ -6,11 +6,15 @@
             "flex-layout.col#catalogo",
             "flex-layout.col#chat",
             "flex-layout.col#hazlo"
-        ]
+        ],
+        "props":{
+            "marginBottom": 7
+        }
     },
     "flex-layout.col#entrega": {
         "children": [
-            "image#entrega"
+            "image#entrega",
+            "rich-text#entrega"
         ]
     },
     "image#entrega": {
@@ -19,9 +23,16 @@
             "blockClass": "DeliveryImgWidth"
         }
     },
+        "rich-text#entrega": {
+        "props": {
+            "text": "**ENTREGA**",
+            "blockClass": "DeliverFlexClass"
+        }
+    },
     "flex-layout.col#calculadora": {
         "children": [
-            "image#calculadora"
+            "image#calculadora",
+            "rich-text#calculadora"
         ]
     },
     "image#calculadora": {
@@ -30,9 +41,16 @@
             "blockClass": "DeliveryImgWidth"
         }
     },
+        "rich-text#calculadora": {
+        "props": {
+            "text": "**CALCULADORA**",
+            "blockClass": "DeliverFlexClass"
+        }
+    },
     "flex-layout.col#catalogo": {
         "children": [
-            "image#catalogo"
+            "image#catalogo",
+            "rich-text#catalogo"
         ]
     },
     "image#catalogo": {
@@ -41,9 +59,16 @@
             "blockClass": "DeliveryImgWidth"
         }
     },
+        "rich-text#catalogo": {
+        "props": {
+            "text": "**CATÁLOGO**",
+            "blockClass": "DeliverFlexClass"
+        }
+    },
     "flex-layout.col#chat": {
         "children": [
-            "image#chat"
+            "image#chat",
+            "rich-text#chat"
         ]
     },
     "image#chat": {
@@ -52,15 +77,28 @@
             "blockClass": "DeliveryImgWidth"
         }
     },
+        "rich-text#chat": {
+        "props": {
+            "text": "**CHAT**",
+            "blockClass": "DeliverFlexClass"
+        }
+    },
     "flex-layout.col#hazlo": {
         "children": [
-            "image#hazlo"
+            "image#hazlo",
+            "rich-text#hazlo"
         ]
     },
     "image#hazlo": {
         "props": {
             "src": "assets/Delivery/hazlo.jpg",
             "blockClass": "DeliveryImgWidth"
+        }
+    },
+        "rich-text#hazlo": {
+        "props": {
+            "text": "**INSTALACIÓN**",
+            "blockClass": "DeliverFlexClass"
         }
     }
 }

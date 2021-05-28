@@ -3,33 +3,45 @@
         "children": [
             "flex-layout.col#Projects1",
             "flex-layout.col#Projects2"
-        ]
+        ],
+        "props":{
+            "marginBottom": 7
+        }
     },
-    "rich-text#RefCaption": {
+    "rich-text#DIY": {
         "props": {
-            "text": "## RefCaption."
+            "text": "## DIY",
+            "blockClass": "H2Caption"
+        }
+    },
+    "rich-text#HomeSpaces": {
+        "props": {
+            "text": "## Home Spaces",
+            "blockClass": "H2Caption"
         }
     },
     "flex-layout.col#Projects1": {
         "children": [
             "image#Projects1",
-            "rich-text#RefCaption"
+            "rich-text#DIY"
         ]
     },
     "image#Projects1": {
         "props": {
-            "src": "assets/Projects/Projects1.jpg"
+            "src": "assets/Projects/Projects1.jpg",
+            "blockClass": "ProjectsImgWidth"
         }
     },
     "flex-layout.col#Projects2": {
         "children": [
             "image#Projects2",
-            "rich-text#RefCaption"
+            "rich-text#HomeSpaces"
         ]
     },
     "image#Projects2": {
         "props": {
-            "src": "assets/Projects/Projects2.jpg"
+            "src": "assets/Projects/Projects2.jpg",
+            "blockClass": "ProjectsImgWidth"
         }
     }
 }

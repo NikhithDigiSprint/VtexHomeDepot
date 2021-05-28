@@ -10,35 +10,53 @@
             "fullWidth": true
         }
     },
-    "rich-text#ProductRangeText": {
-        "props": {
-            "text": "RefCaption",
-            "blockClass": "link"
-        }
-    },
     "flex-layout.col#Amazon": {
         "children": [
             "image#Amazon",
-            "rich-text#ProductRangeText"
+            "rich-text#SmartHome"
         ]
+    },
+    "rich-text#SmartHome": {
+        "props": {
+            "text": "## Smart Home",
+            "blockClass": "H2Caption"
+        }
     },
     "flex-layout.col#Milwaukee": {
         "children": [
             "image#Milwaukee",
-            "rich-text#ProductRangeText"
+            "rich-text#DIYTools"
         ]
+    },
+    "rich-text#DIYTools": {
+        "props": {
+            "text": "## DIY Tools",
+            "blockClass": "H2Caption"
+        }
     },
     "flex-layout.col#Organic": {
         "children": [
             "image#Organic",
-            "rich-text#ProductRangeText"
+            "rich-text#organicSupplies"
         ]
+    },
+    "rich-text#organicSupplies": {
+        "props": {
+            "text": "## Organic Supply",
+            "blockClass": "H2Caption"
+        }
     },
     "flex-layout.col#RoofPaint": {
         "children": [
             "image#RoofPaint",
-            "rich-text#ProductRangeText"
+            "rich-text#RoofPaint"
         ]
+    },
+    "rich-text#RoofPaint": {
+        "props": {
+            "text": "## Roof Paint",
+            "blockClass": "H2Caption"
+        }
     },
     "image#Amazon": {
         "props": {
