@@ -1,0 +1,92 @@
+{
+    "flex-layout.row#LandingPageTopSlider": {
+        "children":["slider-layout#LandingPageTopSlider"]
+    },
+    "slider-layout#LandingPageTopSlider": {
+        "children": [
+            "flex-layout.row#CoffeeTable",
+            "flex-layout.row#TvTable",
+            "flex-layout.row#Chair",
+            "flex-layout.row#DecorPot"
+        ],
+        "props": {
+            "navigationStep": 1,
+            "itemsPerPage": {
+                "desktop": 4,
+                "phone": 3
+            },
+            "showPaginationDots": "never"
+        }
+    },
+    "flex-layout.row#CoffeeTable": {
+        "children": [
+            "image#CoffeeTable",
+            "rich-text#CoffeeTable"
+        ],
+        "props": {
+            "blockclass": "SliderSeperator"
+        }
+    },
+    "image#CoffeeTable": {
+        "props": {
+            "src": "assets/LandingSlider/CoffeeTable.jpg",
+            "title": "Coffeetable"
+        }
+    },
+    "rich-text#CoffeeTable": {
+        "props": {
+            "text": "##### Mesas de Centro"
+        }
+    },
+    "flex-layout.row#TvTable": {
+        "children": [
+            "image#TvTable",
+            "rich-text#TvTable"
+        ]
+    },
+    "image#TvTable": {
+        "props": {
+            "src": "assets/LandingSlider/TvTable.jpg",
+            "title": "TvTable"
+        }
+    },
+    "rich-text#TvTable": {
+        "props": {
+            "text": "##### Muebles para Tv"
+        }
+    },
+    "flex-layout.row#Chair": {
+        "children": [
+            "image#Chair",
+            "rich-text#Chair"
+        ]
+    },
+    "image#Chair": {
+        "props": {
+            "src": "assets/LandingSlider/Chair.jpg",
+            "title": "Chair"
+        }
+    },
+    "rich-text#Chair": {
+        "props": {
+            "text": "##### Sillas Decorativas"
+        }
+    },
+    "flex-layout.row#DecorPot": {
+        "children": [
+            "image#DecorPot",
+            "rich-text#DecorPot"
+        ]
+    },
+    "image#DecorPot": {
+        "props": {
+            "src": "assets/LandingSlider/DecorPot.jpg",
+            "title": "DecorPot"
+        }
+    },
+    "rich-text#DecorPot": {
+        "props": {
+            "text": "##### Accesorios"
+        }
+    }
+}

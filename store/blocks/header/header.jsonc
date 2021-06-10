@@ -74,7 +74,7 @@
   },
   "header-row#5-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#category-menu"
+      "vtex.menu@2.x:menu#MegaMenu"
     ],
     "props": {
       "blockClass": "main-topbar"
@@ -187,7 +187,7 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#category-Departamentos",
+      "menu-item#Departamentos",
       "menu-item#Promociones y eventos",
       "menu-item#Ideas y espacios",
       "menu-item#Servicios"

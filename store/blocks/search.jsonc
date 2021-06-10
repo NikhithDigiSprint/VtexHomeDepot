@@ -100,19 +100,19 @@
     ]
   },
 
-  "info-card#depbanner": {
-    "props": {
-      "imageUrl": "https://image.shutterstock.com/z/stock-photo-party-with-best-friends-group-of-cheerful-young-people-enjoying-home-party-with-snacks-and-drinks-492006757.jpg",
-      "callToActionMode": "none",
-      "isFullModeStyle": true,
-      "headline": " ",
-      "blockClass": "depbanner"
-    }
-  },
+  // "info-card#depbanner": {
+  //   "props": {
+  //     "imageUrl": "https://image.shutterstock.com/z/stock-photo-party-with-best-friends-group-of-cheerful-young-people-enjoying-home-party-with-snacks-and-drinks-492006757.jpg",
+  //     "callToActionMode": "none",
+  //     "isFullModeStyle": true,
+  //     "headline": " ",
+  //     "blockClass": "depbanner"
+  //   }
+  // },
 
   "search-result-layout.desktop#dep": {
     "children": [
-      "flex-layout.row#depBanner",
+      // "flex-layout.row#depBanner",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -128,7 +128,7 @@
   "search-result-layout.desktop#cat": {
     "children": [
       "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
+      "flex-layout.row#LandingPageTopSlider",
       "flex-layout.row#result"
     ],
     "props": {
@@ -199,15 +199,15 @@
     "blocks": ["gallery", "not-found"]
   },
 
-  "flex-layout.row#depBanner": {
-    "children": [
-      "info-card#depbanner"
-    ]
-  },
+  // "flex-layout.row#depBanner": {
+  //   "children": [
+  //     "info-card#depbanner"
+  //   ]
+  // },
 
   "search-result-layout.mobile#dep": {
     "children": [
-      "flex-layout.row#depBanner",
+      //"flex-layout.row#depBanner",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
