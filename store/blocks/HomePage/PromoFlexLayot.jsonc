@@ -31,13 +31,15 @@
         "props": {
             "src": "assets/Promociones/4x3.svg",
             "title": "Redescubre",
-            "blockClass": "DiscountTag"
+            "blockClass": "DiscountTag",
+            "link": "/electronics"
         }
     },
     "image#SamRefrigerator": {
         "props": {
             "src": "assets/Promociones/SamREFRI.jpg",
-            "title": "Redescubre"
+            "title": "Redescubre",
+            "link": "/electronics"
         }
     },
     "flex-layout.col#PromCol1": {
@@ -65,7 +67,8 @@
     "image#Stove": {
         "props": {
             "src": "assets/Promociones/Stove.jpg",
-            "title": "Fan"
+            "title": "Fan",
+            "link": "/electronics"
         }
     },
     "rich-text#profEquip": {
@@ -95,19 +98,22 @@
     "image#Laundry": {
         "props": {
             "src": "assets/Promociones/Laundry.jpg",
-            "title": "Tools"
+            "title": "Tools",
+            "link": "/electronics"
         }
     },
     "image#FitKitchens": {
         "props": {
             "src": "assets/Promociones/FitKitchens.jpg",
-            "title": "AirCon"
+            "title": "AirCon",
+            "link": "/electronics"
         }
     },
     "image#WashMachines": {
         "props": {
             "src": "assets/Promociones/WashMachines.jpg",
-            "title": "Sensors"
+            "title": "Sensors",
+            "link": "/electronics"
         }
     }
 }

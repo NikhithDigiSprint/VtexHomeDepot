@@ -7,7 +7,7 @@
             "flex-layout.col#chat",
             "flex-layout.col#hazlo"
         ],
-        "props":{
+        "props": {
             "marginBottom": 7
         }
     },
@@ -20,10 +20,11 @@
     "image#entrega": {
         "props": {
             "src": "assets/Delivery/entrega.jpg",
-            "blockClass": "DeliveryImgWidth"
+            "blockClass": "DeliveryImgWidth",
+            "link": "/electronics"
         }
     },
-        "rich-text#entrega": {
+    "rich-text#entrega": {
         "props": {
             "text": "**ENTREGA**",
             "blockClass": "DeliverFlexClass"
@@ -38,10 +39,11 @@
     "image#calculadora": {
         "props": {
             "src": "assets/Delivery/calculadora.jpg",
-            "blockClass": "DeliveryImgWidth"
+            "blockClass": "DeliveryImgWidth",
+            "link": "/electronics"
         }
     },
-        "rich-text#calculadora": {
+    "rich-text#calculadora": {
         "props": {
             "text": "**CALCULADORA**",
             "blockClass": "DeliverFlexClass"
@@ -56,10 +58,11 @@
     "image#catalogo": {
         "props": {
             "src": "assets/Delivery/catalogo.jpg",
-            "blockClass": "DeliveryImgWidth"
+            "blockClass": "DeliveryImgWidth",
+            "link": "/electronics"
         }
     },
-        "rich-text#catalogo": {
+    "rich-text#catalogo": {
         "props": {
             "text": "**CATÁLOGO**",
             "blockClass": "DeliverFlexClass"
@@ -74,10 +77,11 @@
     "image#chat": {
         "props": {
             "src": "assets/Delivery/chat.jpg",
-            "blockClass": "DeliveryImgWidth"
+            "blockClass": "DeliveryImgWidth",
+            "link": "/electronics"
         }
     },
-        "rich-text#chat": {
+    "rich-text#chat": {
         "props": {
             "text": "**CHAT**",
             "blockClass": "DeliverFlexClass"
@@ -92,10 +96,11 @@
     "image#hazlo": {
         "props": {
             "src": "assets/Delivery/hazlo.jpg",
-            "blockClass": "DeliveryImgWidth"
+            "blockClass": "DeliveryImgWidth",
+            "link": "/electronics"
         }
     },
-        "rich-text#hazlo": {
+    "rich-text#hazlo": {
         "props": {
             "text": "**INSTALACIÓN**",
             "blockClass": "DeliverFlexClass"

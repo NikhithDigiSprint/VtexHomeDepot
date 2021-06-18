@@ -35,7 +35,7 @@
   },
   "header-row#4-desktop": {
     "children": [
-      "logo#desktop",
+      "logo#desktopUrl",
       "flex-layout.row#2nd-row",
       "search-bar",
       "login",
@@ -138,11 +138,11 @@
       "blockClass": "link"
     }
   },
-  "logo#desktop": {
+  "logo#desktopUrl": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/HomeDepot-Logo.png",
+      "url": "https://www.homedepot.com.mx/wcsstore/HDM-SAS/images/logo.png",
       "width": "68"
     }
   },
@@ -170,7 +170,7 @@
   "header-row#1-mobile": {
     "children": [
       "drawer",
-      "logo#mobile",
+      "logo#mobileUrl",
       "header-spacer",
       "header-spacer",
       "minicart"
@@ -196,11 +196,11 @@
       "orientation": "vertical"
     }
   },
-  "logo#mobile": {
+  "logo#mobileUrl": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/HomeDepot-Logo.png",
+      "url": "https://www.homedepot.com.mx/wcsstore/HDM-SAS/images/logo.png",
       "width": "35"
     }
   }

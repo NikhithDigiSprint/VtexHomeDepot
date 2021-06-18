@@ -18,7 +18,7 @@
   },
   "rich-text#specifications": {
     "props": {
-      "text": "##### Product Specifications"
+      "text": "## Información del producto"
     }
   },
   "flex-layout.row#product-breadcrumb": {
@@ -28,9 +28,9 @@
     "children": ["breadcrumb"]
   },
   "flex-layout.row#description": {
-    "props": {
-      "marginBottom": 7
-    },
+    // "props": {
+    //   "marginBottom": 7
+    // },
     "children": ["product-description"]
   },
   "flex-layout.row#product-main": {
@@ -98,6 +98,7 @@
       "product-separator",
       "product-identifier.product",
       "sku-selector",
+      "flex-layout.row#description",
       "product-quantity",
       "product-assembly-options",
       "product-gifts",

@@ -71,7 +71,7 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/computers",
+        "href": "/electronics",
         "noFollow": false,
         "tagTitle": "Computers",
         "text": "Baños",
@@ -88,9 +88,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/electronics/computers",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Decoración",
         "text": "Decoración",
         "highlight": true
       }
@@ -105,9 +105,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Eléctrico",
         "text": "Eléctrico",
         "highlight": true
       }
@@ -122,9 +122,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Ferretería",
         "text": "Ferretería",
         "highlight": true
       }
@@ -139,9 +139,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Herramientas",
         "text": "Herramientas",
         "highlight": true
       }
@@ -156,9 +156,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Iluminación",
         "text": "Iluminación",
         "highlight": true
       }
@@ -173,9 +173,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Jardín",
         "text": "Jardín",
         "highlight": true
       }
@@ -190,9 +190,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Limpieza",
         "text": "Limpieza",
         "highlight": true
       }
@@ -207,9 +207,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Materiales",
         "text": "Materiales de Construcción",
         "highlight": true
       }
@@ -224,9 +224,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Pinturas",
         "text": "Pinturas",
         "highlight": true
       }
@@ -241,9 +241,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Pisos",
         "text": "Pisos",
         "highlight": true
       }
@@ -258,9 +258,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Plomería",
         "text": "Plomería",
         "highlight": true
       }
@@ -275,9 +275,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Seguridad",
         "text": "Seguridad",
         "highlight": true
       }
@@ -292,9 +292,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Puertas",
         "text": "Puertas y Ventanas",
         "highlight": true
       }
@@ -309,9 +309,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Línea",
         "text": "Línea blanca y Cocinas",
         "highlight": true
       }
@@ -326,9 +326,9 @@
       "blockClass":"submenulist",
       "itemProps": {
         "type": "internal",
-        "href": "/electronics/mobiles",
+        "href": "/ella",
         "noFollow": false,
-        "tagTitle": "Mobiles",
+        "tagTitle": "Ventilación",
         "text": "Ventilación y Calefacción",
         "highlight": true
       }

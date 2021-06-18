@@ -61,25 +61,29 @@
     "image#Amazon": {
         "props": {
             "src": "assets/ProductRange/Amazon.gif",
-            "title": "Plants"
+            "title": "Plants",
+            "link": "/electronics"
         }
     },
     "image#Milwaukee": {
         "props": {
             "src": "assets/ProductRange/Milwaukee.jpg",
-            "title": "Milwaukee"
+            "title": "Milwaukee",
+            "link": "/electronics"
         }
     },
     "image#Organic": {
         "props": {
             "src": "assets/ProductRange/Organic.gif",
-            "title": "Organic"
+            "title": "Organic",
+            "link": "/electronics"
         }
     },
     "image#RoofPaint": {
         "props": {
             "src": "assets/ProductRange/RoofPaint.jpg",
-            "title": "RoofPaint"
+            "title": "RoofPaint",
+            "link": "/electronics"
         }
     }
 }

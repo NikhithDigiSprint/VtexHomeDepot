@@ -52,7 +52,8 @@
     "image#Adhesives": {
         "props": {
             "src": "assets/MomGift/Adhesives.jpg",
-            "title": "Plants"
+            "title": "Plants",
+            "link": "/electronics"
         }
     },
     "rich-text#Adhesives": {
@@ -64,7 +65,8 @@
     "image#Plants": {
         "props": {
             "src": "assets/MomGift/Plants.jpg",
-            "title": "Plants"
+            "title": "Plants",
+            "link": "/electronics"
         }
     },
     "rich-text#PowerTools": {
@@ -76,7 +78,8 @@
     "image#Furniture": {
         "props": {
             "src": "assets/MomGift/Furniture.jpg",
-            "title": "Furniture"
+            "title": "Furniture",
+            "link": "/electronics"
         }
     },
     "rich-text#Roofs": {
@@ -88,7 +91,8 @@
     "image#crafts": {
         "props": {
             "src": "assets/MomGift/crafts.jpg",
-            "title": "crafts"
+            "title": "crafts",
+            "link": "/electronics"
         }
     },
     "rich-text#Storages": {
@@ -100,7 +104,8 @@
     "image#HomeApps": {
         "props": {
             "src": "assets/MomGift/HomeApps.jpg",
-            "title": "HomeApps"
+            "title": "HomeApps",
+            "link": "/electronics"
         }
     },
     "rich-text#DoorLocks": {
@@ -112,7 +117,8 @@
     "image#SmartHome": {
         "props": {
             "src": "assets/MomGift/SmartHome.jpg",
-            "title": "SmartHome"
+            "title": "SmartHome",
+            "link": "/electronics"
         }
     },
     "rich-text#Chairs": {

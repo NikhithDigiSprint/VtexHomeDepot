@@ -29,7 +29,8 @@
     "image#Projects1": {
         "props": {
             "src": "assets/Projects/Projects1.jpg",
-            "blockClass": "ProjectsImgWidth"
+            "blockClass": "ProjectsImgWidth",
+            "link": "/electronics"
         }
     },
     "flex-layout.col#Projects2": {
@@ -41,7 +42,8 @@
     "image#Projects2": {
         "props": {
             "src": "assets/Projects/Projects2.jpg",
-            "blockClass": "ProjectsImgWidth"
+            "blockClass": "ProjectsImgWidth",
+            "link": "/electronics"
         }
     }
 }
