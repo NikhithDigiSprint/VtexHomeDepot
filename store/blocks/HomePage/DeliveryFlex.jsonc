@@ -21,7 +21,7 @@
         "props": {
             "src": "assets/Delivery/entrega.jpg",
             "blockClass": "DeliveryImgWidth",
-            "link": "/electronics"
+            "link": {"url" : "/electronics" }
         }
     },
     "rich-text#entrega": {
@@ -40,7 +40,7 @@
         "props": {
             "src": "assets/Delivery/calculadora.jpg",
             "blockClass": "DeliveryImgWidth",
-            "link": "/electronics"
+            "link": {"url" : "/electronics" }
         }
     },
     "rich-text#calculadora": {
@@ -59,7 +59,7 @@
         "props": {
             "src": "assets/Delivery/catalogo.jpg",
             "blockClass": "DeliveryImgWidth",
-            "link": "/electronics"
+            "link": {"url" : "/electronics" }
         }
     },
     "rich-text#catalogo": {
@@ -78,7 +78,7 @@
         "props": {
             "src": "assets/Delivery/chat.jpg",
             "blockClass": "DeliveryImgWidth",
-            "link": "/electronics"
+            "link": {"url" : "/electronics" }
         }
     },
     "rich-text#chat": {
@@ -97,7 +97,7 @@
         "props": {
             "src": "assets/Delivery/hazlo.jpg",
             "blockClass": "DeliveryImgWidth",
-            "link": "/electronics"
+            "link": {"url" : "/electronics" }
         }
     },
     "rich-text#hazlo": {

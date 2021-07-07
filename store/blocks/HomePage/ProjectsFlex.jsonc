@@ -30,7 +30,7 @@
         "props": {
             "src": "assets/Projects/Projects1.jpg",
             "blockClass": "ProjectsImgWidth",
-            "link": "/electronics"
+            "link": {"url" : "/electronics" }
         }
     },
     "flex-layout.col#Projects2": {
@@ -43,7 +43,7 @@
         "props": {
             "src": "assets/Projects/Projects2.jpg",
             "blockClass": "ProjectsImgWidth",
-            "link": "/electronics"
+            "link": {"url" : "/electronics" }
         }
     }
 }

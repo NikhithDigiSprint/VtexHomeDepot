@@ -39,7 +39,7 @@
     "image#Spaces1": {
         "props": {
             "src": "assets/Spaces/Spaces1.jpg",
-            "link": "/electronics"
+            "link": {"url" : "/electronics" }
         }
     },
     "flex-layout.col#Spaces2": {
@@ -51,7 +51,7 @@
     "image#Spaces2": {
         "props": {
             "src": "assets/Spaces/Spaces2.jpg",
-            "link": "/electronics"
+            "link": {"url" : "/electronics" }
         }
     },
     "flex-layout.col#Spaces3": {
@@ -63,7 +63,7 @@
     "image#Spaces3": {
         "props": {
             "src": "assets/Spaces/Spaces3.jpg",
-            "link": "/electronics"
+            "link": {"url" : "/electronics" }
         }
     }
 }
