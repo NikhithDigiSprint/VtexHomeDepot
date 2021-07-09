@@ -63,7 +63,7 @@
     "image#Spaces3": {
         "props": {
             "src": "assets/Spaces/Spaces3.jpg",
-            "link": {"url" : "/electronics" }
+            "link": {"url" : "/ella/ropa" }
         }
     }
 }
