@@ -32,14 +32,14 @@
             "src": "assets/Promociones/4x3.svg",
             "title": "Redescubre",
             "blockClass": "DiscountTag",
-            "link": {"url" : "/electronics" }
+            "link": {"url" : "/electronics/mobiles" }
         }
     },
     "image#SamRefrigerator": {
         "props": {
             "src": "assets/Promociones/SamREFRI.jpg",
             "title": "Redescubre",
-            "link": {"url" : "/electronics" }
+            "link": {"url" : "/ella" }
         }
     },
     "flex-layout.col#PromCol1": {
@@ -99,21 +99,21 @@
         "props": {
             "src": "assets/Promociones/Laundry.jpg",
             "title": "Tools",
-            "link": {"url" : "/electronics" }
+            "link": {"url" : "/home" }
         }
     },
     "image#FitKitchens": {
         "props": {
             "src": "assets/Promociones/FitKitchens.jpg",
             "title": "AirCon",
-            "link": {"url" : "/electronics" }
+            "link": {"url" : "/ella/ropa" }
         }
     },
     "image#WashMachines": {
         "props": {
             "src": "assets/Promociones/WashMachines.jpg",
             "title": "Sensors",
-            "link": {"url" : "/electronics" }
+            "link": {"url" : "/ella/zapatos" }
         }
     }
 }

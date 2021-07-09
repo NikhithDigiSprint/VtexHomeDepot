@@ -39,7 +39,7 @@
     "image#Spaces1": {
         "props": {
             "src": "assets/Spaces/Spaces1.jpg",
-            "link": {"url" : "/electronics" }
+            "link": {"url" : "/home" }
         }
     },
     "flex-layout.col#Spaces2": {
@@ -51,7 +51,7 @@
     "image#Spaces2": {
         "props": {
             "src": "assets/Spaces/Spaces2.jpg",
-            "link": {"url" : "/electronics" }
+            "link": {"url" : "/ella" }
         }
     },
     "flex-layout.col#Spaces3": {
