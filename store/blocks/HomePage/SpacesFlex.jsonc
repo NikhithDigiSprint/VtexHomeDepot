@@ -60,6 +60,7 @@
             "rich-text#LivingRoom"
         ]
     },
+    
     "image#Spaces3": {
         "props": {
             "src": "assets/Spaces/Spaces3.jpg",
